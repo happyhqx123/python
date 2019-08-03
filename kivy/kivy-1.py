@@ -1,8 +1,6 @@
 from kivy.app import App
-from kivy.uix.button import Button
-
-class TestApp(App):
+from kivy.uix.label import Label
+class Myapp(App):
     def build(self):
-        return Button(text='hello world')
-
-TestApp().run()
+        return Label(text="老子打死你")
+Myapp().run()
