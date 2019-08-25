@@ -13,7 +13,6 @@ set guifont=Monaco:h13
 syntax on   "开启语法高亮"
 let g:solarized_termcolors=256  "solarized主题设置在终端下的设置"
 set background=dark     "设置背景色"
-colorscheme solarized
 set nowrap  "设置不折行"
 set fileformat=unix "设置以unix的格式保存文件"
 set cindent     "设置C样式的缩进格式"
