@@ -1,1 +1,1 @@
-jupyter notebook --all
+jupyter notebook --allow-root
