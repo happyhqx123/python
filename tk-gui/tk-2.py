@@ -1,4 +1,17 @@
 import tkinter as tk
+<<<<<<< HEAD
+windows=tk.Tk()
+windows.title('我的第一个gui程序')
+windows.geometry('500x300')
+i=tk.Label(windows,text='我要打死你')
+i.pack()
+
+def anniu():
+
+    pass
+b=tk.Button(windows,text='点一下',commend=anniu)
+windows.mainloop()
+=======
 windows = tk.Tk()
 windows.title("my windows")
 windows.geometry('200x100')
@@ -21,3 +34,4 @@ b.pack()
 windows.mainloop()
 
 
+>>>>>>> a7d653de04629bfe09e0734e8867de39e46109dd
